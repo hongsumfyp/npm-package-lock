@@ -15,7 +15,7 @@ jobs:
     
       - checkout
       
-      - run: npm init
+      - run: npm init --yes
      
       - run: npm install #--save-dev      
       - run: bash <(curl -s https://copilot.blackducksoftware.com/ci/circle/scripts/upload)
